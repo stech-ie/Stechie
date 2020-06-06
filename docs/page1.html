@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- change title -->
+<title>Stechie</title>
+
+<!-- change icon -->
+<link rel="icon" 
+      type="image/png" 
+      href="http://stechie.net/logo.jpg">
+	  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- change share images -->
+<!-- fb image-->
+<meta property="og:image" content="https://fijjla.com/img/fijjlalogofb.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<!-- fb wapp-->
+<meta property="og:image" content="https://fijjla.com/img/fijjlalogowapp.jpg" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="300" />
+
+
+<!-- adsense script -->
+<script data-ad-client="ca-pub-1267473875032728" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- end of adsense script -->
+
+
+
+
+
+
+<script type="text/javascript">
+    function init() {
+
+		var x = document.getElementsByClassName("column");
+		if ( window.innerWidth >= 800) {         
+				for (i = 0; i < x.length; i++) {
+					x[i].style.width = "33%";
+				  }
+            }
+		else {
+			for (i = 0; i < x.length; i++) {
+					x[i].style.width = "50%";
+				  }
+		}
+            
+    }
+	window.onload = init;
+</script>
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  display: none; /* Hide all elements by default */
+}
+
+.column33 {
+  width: 33%;
+}
+
+.column50 {
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  margin: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+</head>
+<body >
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Smart Speaker</h1>
+<hr>
+
+<h2>CONTENT</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('cat1')"> Connexts to Alexa Amazon</button>
+  <button class="btn" onclick="filterSelection('cat2')"> Connects to Google home</button>
+   <button class="btn" onclick="filterSelection('cat3')"> Other devices</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+
+<!-- cat1 -->
+  <div class="column cat1">
+  <a href="page2.html" target="_blank">
+    <div class="content">
+      <img src="img/amazon echodot.jpg" alt="img1" style="width:100%">
+      <h4>amazon alexa echo dot</h4>
+      <p> Connects to Amazon Alexa.If you aren’t in it for the music, the Amazon Echo Dot With Clock (3rd Gen) and Nest Mini (7/10, WIRED Recommends) will give you most of the perks of owning a smart speaker, and you can use them to smarten up existing speakers on the cheap.
+
+Honestly, the sound is very similar between models, and they have nearly identical footprints, so you could easily make an argument that one is better than the other based on ecosystem alone. We used to prefer the Nest Mini for this reason, but now that Amazon has added a simple clock to the front of the Echo Dot, we like the Alexa-powered option better.
+
+The tiny display on the Echo Dot With Clock comes in handy. It can tell you when your timers are going to expire in the kitchen or when your alarm is set for the morning, and of course it tells the time otherwise. That makes it our favorite bedroom and kitchen companion—removing the need for an alarm clock or egg timer. You can also ask it the weather, have it answer your random questions, and play white noise at bedtime to help you sleep.
+
+It also presents an easy way to get a smart assistant into the places in your home where you don't normally listen to music.
+
+The Amazon Echo Dot With Clock costs $45 at Amazon or Best Buy.
+
+If you want to use Google Assistant, the aforementioned $35 Nest Mini is also a great mini speaker.</p>
+    </div>
+	</a>
+  </div>
+	
+  <div class="column cat1">
+    <div class="content">
+	<a href="" target="_blank">
+      <img src="img/amazon echo.jpg" alt="img1" style="width:100%">
+      <h4>Amazon Alexa Echo Speaker </h4>
+	  </a>
+      <p>You can put it anywhere, in the kitchen, bathrooms, bedroom ,living rooms and it easily fills the room with sound.
+	  With Alexa, getting news and weather and setting kitchen timers and alarm clocks is so convenient, You can also ask alexa to turn off and on the smart lighting you have
+	  You can turn also off the microphones with a physical button, for when people are over.
+	  So if you want a simple, audio-focused device that doesn't get in the way, this is the best for you.</p>
+    </div>
+	
+  </div>
+ 
+  <div class="column cat1">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/amazon echo show.jpg" alt="img1" style="width:100%">
+      <h4>Amazon Echo show</h4>
+      <p>(Connects to Alexa.) The Echo Show (7/10, WIRED Recommends) is a great Alexa-powered alternative to the Nest Hub Max. 
+	  It's more usable than third-party Alexa speakers, because it can call and network with Amazon's other Echo speakers. 
+	  The new version looks much nicer than the first Echo Shows you may have seen, with a full-size 10-inch screen
+	  That screen is where it shines. You still have to talk to Alexa to do almost anything, but the screen lets you see what music you’re playing, pause the audio,
+	  skip to the next song, and view lyrics on some Amazon Music tracks. It can also play Amazon Prime videos and has a video version of Alexa’s daily flash-news 
+	  briefing. Voice and video calls are supported, though to do video you’ll need to call another Echo device with a screen.</p>
+    </div>
+	</a>
+  </div>
+
+<!-- cat2 -->
+  <div class="column cat1">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/bose.jpg" alt="img1" style="width:100%">
+      <h4>Bose</h4>
+      <p>Bose Home Speaker 500 ($400) Has Alexa, and a Bit Extra: It's certainly not cheap, but this Bose speaker does sound pretty good (not as clear as a 
+	  Riva or Sonos One, but great on the whole) and gets loud. It has hands-free Alexa, Bluetooth, a 3.5-mm auxiliary port to connect directly to your phone 
+	  or MP3 player, and six useful preset buttons that you can assign to open a specific playlist or album from Spotify, Pandora, Amazon Music, and TuneIn. 
+	  The display on the front shows album art and a few other prompts but isn't nearly as effective as those on true smart displays like the JBL Link View.</p>
+    </div>
+	</a>
+  </div>
+	
+  <div class="column cat2">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/google max.jpg" alt="img1" style="width:100%">
+      <h4>Google Home Max</h4>
+      <p>If you’re looking for a smart speaker that can crank it out in any size room, the Google Home Max (8/10, WIRED Recommends) is our pick. 	 
+	  It gets loud and brings the bass, thanks to its dual 4.5-inch woofers. Touchpad volume controls work well, and a magnetic pad on the bottom keeps 
+	  the speaker from sliding around. It also dampens vibrations, preventing the speaker from rattling against the table and keeping those beats extra tight.
+	  The Max automatically shapes its sound to match the acoustic properties of the room you are in. An array of six microphones listens to the audio 
+	  signature of the space, amplifying or reducing certain frequencies to arrive at a sweeter-sounding result. The Max gets about as loud as a Sonos Play:5
+	  speaker, though it's not quite as clean and balanced as the Sonos One. But if you like to rock out and kick up the volume, it's unmatched among
+	  voice-controlled options. If you're completely rich and nuts, you can pair two of these together. Like other Google speakers, setting up the Home Max 
+	  is easy. Android phone users will find it more useful, since its smooth integration with Google-powered handsets adds extra utility.
+
+</p>
+    </div>
+	</a>
+  </div>
+ 
+  <div class="column cat2">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/google hub.jpg" alt="img1" style="width:100%">
+      <h4>Google Nest Hub</h4>
+      <p>(Connects to Google Assistant.) Smart displays are great in the kitchen, but they often have speakers that are too weak to help you dance your way through 
+	  meal prep. That's why we like the Google Nest Hub Max, which boasts a pair of pretty impressive speakers below its 10-inch display. You won't get the same 
+	  fidelity as you'll get from stand-alone smart speakers, but it's enough to have a small dance party while the lasagna bakes.
+	  The Nest Hub Max is our current favorite smart display for a number of reasons. We like that it can use its camera to identify individual members of the house,
+	  only showing information pertaining to each, and the larger display makes it great for watching YouTube tutorials.
+	  The Google Nest Hub Max costs $230 at Best Buy
+	  The JBL Link View ($250) is a good alternative. It's not the prettiest smart speaker, but it has 2-inch, full-range drivers for better sound than the 
+	  Nest Hub Max. We gave it an 8/10, WIRED Recommends badge in our full review.<br><br><br><br><br><br></p>
+    </div>
+	</a>
+  </div>
+ 
+ 
+<!-- cat3 -->
+  <div class="column cat2">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/jbl.jpg" alt="img1" style="width:100%">
+      <h4>JBL</h4>
+      <p>(Connects to Google Assistant.) Out of all of the smart speakers I’ve used, the sheer convenience and usability of the JBL Link 20 (8/10, 
+	  WIRED Recommends) has made it my favorite. The Link 20 is waterproof and floats. It also has helpful indicator lights showing how much battery is 
+	  left and how strong your Wi-Fi signal is—both important when you’re moving a speaker around the house or in the backyard. Bluetooth pairing is also easy,
+	  and you can charge the speaker while it stands upright, something that requires an adapter on the rival UE Blast and Megablast speakers.
+	  The Link 20 relies on Google Assistant, which works better than Alexa in many ways. Setup is easier, and the weird syncing issues common with
+	  third-party Alexa devices are absent here. It answers questions more reliably and is compatible with Google apps and Spotify, Pandora, and 
+	  YouTube Music for streaming. Google Assistant can play Netflix on your Chromecast devices too, so you can fire up The Witcher with a simple voice command.</p>
+    </div>
+	</a>
+  </div>
+	
+  <div class="column cat2">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/sonosbeam.jpg" alt="img1" style="width:100%">
+      <h4>Sonos Beam soundbar</h4>
+      <p>Connects to Alexa, Sonos, AirPlay 2, and Google Assistant.) The Sonos Beam (8/10, WIRED Recommends) is a lot like the Sonos One, but it's a compact 
+	  soundbar made to connect to your TV. It has Alexa, Google Assistant, and Airplay support (with some Siri) out of the box. The real benefit is how seamlessly 
+	  it connects with other Sonos speakers, allowing you to create a surround-sound system. You can even add a Sonos Sub to the mix to deepen those onscreen explosions.
+	  The Beam isn't the absolute best soundbar, but it's good enough for most living rooms, and its compact size makes it usable for many sizes of TV. 
+	  If you own a Fire TV or Google Chromecast, the Beam can play movies and TV shows with voice requests.
+	  The Beam costs $399 at Amazon or Sonos
+	  The Yamaha YAS-109 ($200) is a cheaper alternative that supports Amazon's Alexa ecosystem and has nearly the same fidelity as you get from the Beam.</p>
+    </div>
+	</a>
+  </div>
+ 
+  <div class="column cat1"  class="column cat2">
+  <a href="" target="_blank">
+    <div class="content">
+      <img src="img/sonos.jpg" alt="img1" style="width:100%">
+      <h4>Header 9</h4>
+      <p>(Connects to Alexa, Sonos, AirPlay 2, and Google Assistant.) There are louder speakers and some that are more portable, but no smart speaker is a 
+	  better buy than the Sonos One right now (8/10, WIRED Recommends). It sets the bar in a number of areas, including sound quality, stable multiroom audio,
+	  and smart-home utility. Plus, it's probably compatible with whatever ecosystem you prefer—it comes with Alexa enabled but also supports Apple Airplay 2 
+	  and Google Assistant.
+	  On the audio front, the Sonos One is virtually unrivaled. Apple’s HomePod is the only voice-enabled speaker we’ve heard that may best it in sound, 
+	  but not by much. It connects to about 100 streaming audio services around the world, which is most of them. It's also one of the best smart speakers to 
+	  buy if you plan to build a home theater setup—it connects to Sonos' larger speakers and its TV soundbar.It's worth noting that Sonos has been in a bit 
+	  of hot water this year over the fact that older speakers will no longer be getting software updates. Unfortunately, this is a reality of computer-powered
+	  speakers; unlike their analog predecessors, you can't expect them to last forever.
+	  The Sonos One costs $199 at Amazon or Sonos</p>
+    </div>
+	</a>
+  </div>
+
+  
+  
+  
+ 
+  
+  
+  
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
